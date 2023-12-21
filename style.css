@@ -17,11 +17,30 @@ body{
 .custom-div-1 + p +p{
     color: #00ff00;
 }
-*/
+
 .custom-div-1:before{
     content: "";
 }
-
 .custom-div-1::after{
     content: "";
+}
+*/
+@media(max-width: 991px){
+    .custom-div-1 {
+        background-color: #ff0000;
+    }
+}
+@media(max-width: 767px){
+    .custom-div-1 {
+        background-color: #00ff00;
+    }
+}
+
+.flex{
+    display: flex;
+    
+}
+
+.flex-item{
+
 }
